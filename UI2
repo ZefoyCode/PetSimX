@@ -38,7 +38,7 @@ local Player = Window:MakeTab({
 Player:AddButton({
 	Name = "Fly",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -207,14 +207,14 @@ Player:AddButton({
 Player:AddButton({
 	Name = "Friend All In Server",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "Unfriend All In Server",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -234,14 +234,14 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Cracked Egg", "Golden Cracked Egg", "Spottead Egg", "Golden Spotted Egg", "Wood Egg", "Golden Wood Egg", "Grass Egg", "Golden Grass Egg", "Beachball Egg", "Golden Beachball Egg", "Coconut Egg", "Golden Coconut Egg", "Rock Egg", "Golden Rock Egg", "Geode Egg", "Golden Geode Egg", "Snow Egg", "Golden Snow Egg", "Ice Egg", "Golden Ice Egg", "Icicle Egg", "Golden Icile Egg", "Yeti Egg", "Golden Yeti Egg", "Cactus Egg", "Golden Cactus Egg", "Spiked Egg", "Golden Spiked Egg", "Obsidian Egg", "Golden Obsidian Egg", "Magma Egg", "Golden Magma Egg", "Dominus Egg", "Golden Dominus Egg", "Enchanted Egg", "Golden Enchanted Egg", "Relic Egg", "Golden Relic Egg", "Samurai Egg", "Golden Samurai Egg", "Rainbow Egg", "Golden Rainbow Egg", "Haunted Egg", "Golden Haunted Egg", "Hell Egg", "Golden Hell Egg", "Heaven Egg", "Golden Heaven Egg", "Empyrean Egg", "Golden Empyrean Egg", "Metal Egg", "Golden Metal Egg", "Tech Egg", "Golden Tech Egg", 'Titanium Egg', "Golden Titanium Egg", "Dark Tech Egg", "Golden Dark Tech Egg", 'Steampunk Egg', "Golden Steampunk Egg", "Mechanical Egg", "Golden Mechanical Egg", "Lab Egg", "Golden Lab Egg", "Chemical Egg", "Golden Chemical Egg", "Alien Egg", "Golden Alien Egg", "Martian Egg", "Golden Martian Egg", "Planet Egg", "Golden Planet Egg", "Glitch Egg", "Golden Glitch Egg", "Hacker Egg", "Golden Hacker Egg", "Axolotl Egg", "Golden Axolotl Egg", "Shiny Axolotl Egg", "Golden Shiny Axolotl Egg", "Pixel Egg", "Golden Pixel Egg", "Spotted Pixel Egg", "Golden Spotted Pixel Egg", "Rainbow Egg", "Golden Rainbow Egg", "Paw Egg", "Golden Paw Egg", "Yarn Egg", "Golden Yarn Egg", "Cat Egg", "Golden Cat Egg", "Royal Egg", "Golden Royal Egg", "Pog Egg", "Pumpkin Egg", "Golden Pxumpkin Egg", "Eerie Egg", "Golden Eerie Egg", "Cursed Egg", "Golden Cursed Egg"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 	end    
 })
 
 Auto:AddButton({
 	Name = "Auto Open Eggs",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -270,7 +270,7 @@ Auto:AddDropdown({
 Auto:AddButton({
 	Name = "Auto Farm",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -290,7 +290,7 @@ Auto:AddDropdown({
 Auto:AddButton({
 	Name = "Auto Mastery",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -317,7 +317,7 @@ Pets:AddDropdown({
 Pets:AddButton({
 	Name = "Auto Enchant",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -337,21 +337,21 @@ Pets:AddDropdown({
 Pets:AddButton({
 	Name = "Auto Golden/Rainbow",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
 Pets:AddButton({
 	Name = "Auto Golden",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
 Pets:AddButton({
 	Name = "Auto Rainbow",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -386,21 +386,21 @@ World:AddButton({
 World:AddButton({
 	Name = "Reset Character",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Kick All",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Unlock All Gamepasses",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -426,14 +426,14 @@ local DupesSection = Dupes:AddSection({
 Dupes:AddButton({
 	Name = "Dupe Huges",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
 Dupes:AddButton({
 	Name = "Dupe Exclusives",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 
@@ -467,7 +467,7 @@ local TradeScamSection = TradeScam:AddSection({
 TradeScam:AddButton({
 	Name = "TradeScam",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
   	end    
 })
 

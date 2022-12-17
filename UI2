@@ -256,7 +256,7 @@ local AutoSection = Auto:AddSection({
 Auto:AddDropdown({
 	Name = "Areas",
 	Default = "1",
-	Options = {"Shop", "Town", "Forest", "Beach", "Mine", "Winter", "Glacier", "Desert", "Volcano", "Cave", "Tech Entry", "Enchanted Forest", "Ancient Island", "Samurai Island", "Candy Island", "Haunted Island", "Hell Island", "Heaven Island", "Heaven's Gate", "Tech Shop", "Tech City", "Dark Tech", "Steampunk", "Alien Lab", "Steampunk Chest", "Alien Forest", "Glitch", "Giant Alien Chest", "Hacker Portal", "Axolotl Ocean", "Axolotl Deep Ocean", "Axolotl Cave", "Pixel Forest", "Pixel Kyoto", "Pixel Alps", "Pixel Vault", "Cat Paradise", "Cat Backyard", "Cat Taiga", "Cat Kingdom"},
+	Options = {"Shop", "Town", "Forest", "Beach", "Mine", "Winter", "Glacier", "Desert", "Volcano", "Cave", "Tech Entry", "Enchanted Forest", "Ancient Island", "Samurai Island", "Candy Island", "Haunted Island", "Hell Island", "Heaven Island", "Heaven's Gate", "Tech Shop", "Tech City", "Dark Tech", "Steampunk", "Alien Lab", "Steampunk Chest", "Alien Forest", "Glitch", "Giant Alien Chest", "Hacker Portal", "Axolotl Ocean", "Axolotl Deep Ocean", "Axolotl Cave", "Pixel Forest", "Pixel Kyoto", "Pixel Alps", "Pixel Vault", "Cat Paradise", "Cat Backyard", "Cat Taiga", "Cat Kingdom", "Wonderland", "Snowy Forest", "Elf Village", "North Pole"},
 	Callback = function(Value)
 		print(Value)
 	end    

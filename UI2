@@ -337,21 +337,21 @@ GUIs:AddButton({
 
 -- NEW TITAN
 
-local TITAN = Window:MakeTab({
+local titan = Window:MakeTab({
 	Name = "TITAN HUGE",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local TITANSection = TITAN:AddSection({
+local titanSection = titan:AddSection({
 	Name = "This allows you to get hold of the new TITAN HUGE and show off to your friends!"
 })
 
-local TITANSection = TITAN:AddSection({
+local titanSection = titan:AddSection({
 	Name = "This is not PERMANENT! This is just to show off to your friends."
 })
 
-Auto:AddButton({
+titan:AddButton({
 	Name = "Get Huge Titan Cat",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/ZungUser%3AHook", true))()

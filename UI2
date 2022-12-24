@@ -514,23 +514,30 @@ local World = Window:MakeTab({
 })
 
 World:AddButton({
+	Name = "Unlock All Worlds",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/ZungUser%3AHook", true))()
+  	end    
+})
+
+World:AddButton({
 	Name = "Anti AFK",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Anti Lag",
 	Callback = function()
-      	loadstring(game:HttpGet("https://pastebin.com/raw/fBA8Q3Qi", true))()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/fBA8Q3Qi", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Chat Spoofer",
 	Callback = function()
-      	loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
   	end    
 })
 
@@ -707,28 +714,28 @@ local TradeScamSection = TradeScam:AddSection({
 Other:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
-      	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
 
 Other:AddButton({
 	Name = "Thunder Z",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
   	end    
 })
 
 Other:AddButton({
 	Name = "BK Hub",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
   	end    
 })
 
 Other:AddButton({
 	Name = "Moonlight",
 	Callback = function()
-      	loadstring(game:HttpGet('https://cookie-hosting.xyz/Roblox/Moonlight/Loader.lua'))()
+      		loadstring(game:HttpGet('https://cookie-hosting.xyz/Roblox/Moonlight/Loader.lua'))()
   	end    
 })
 

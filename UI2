@@ -336,8 +336,9 @@ GUIs:AddButton({
 })
 
 -- NEW TITAN
-local TITAN HUGE = Window:MakeTab({
-	Name = "Unlock TITAN HUGE",
+
+local TITAN = Window:MakeTab({
+	Name = "TITAN HUGE",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })

@@ -344,11 +344,22 @@ local titan = Window:MakeTab({
 })
 
 local titanSection = titan:AddSection({
-	Name = "This allows you to get hold of the new TITAN HUGE and show off to your friends!"
+	Name = "This allows you to get hold of the new TITAN HUGE and show off."
 })
 
 local titanSection = titan:AddSection({
 	Name = "This is not PERMANENT! This is just to show off to your friends."
+})
+
+local titanSection = titan:AddSection({
+	Name = "After you leave the game, it will disappear."
+})
+
+titan:AddButton({
+	Name = "Auto Hatch Titan Egg",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/ZungUser%3AHook", true))()
+  	end    
 })
 
 titan:AddButton({

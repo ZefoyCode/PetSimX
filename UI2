@@ -369,6 +369,34 @@ titan:AddButton({
   	end    
 })
 
+-- Lucky Block
+
+local Lucky = Window:MakeTab({
+	Name = "Lucky Sniper",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Lucky:AddButton({
+	Name = "Auto Snipe Lucky Blocks",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+  	end    
+})
+
+Lucky:AddSlider({
+	Name = "Switch Server Time (Minutes)",
+	Min = 0,
+	Max = 100,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Time",
+	Callback = function(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+	end    
+})
+
 -- Auto
 local Auto = Window:MakeTab({
 	Name = "Auto",

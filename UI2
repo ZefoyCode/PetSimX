@@ -1,5 +1,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Omega Z v4 | [🎄 EVENT] Pet Simulator X! 🐾", HidePremium = false, IntroText = "Omega Z", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Omega Z v4 | [🍀LUCKY BLOCK] Pet Simulator X!", HidePremium = false, IntroText = "Omega Z", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "Change log v2.3",
+	Content = "Added Lucky Block Sniper, Booth Sniper and Dupes",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
 
 -- Main Tab
 local Main = Window:MakeTab({
@@ -222,46 +229,52 @@ Player:AddButton({
   	end    
 })
 
-Player:AddButton({
+Player:AddToggle({
 	Name = "Auto Collect Gifts",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Player:AddButton({
-	Name = "Auto Instant Collect",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+Player:AddToggle({
+	Name = "Auto Instant Colelct",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Player:AddButton({
+Player:AddToggle({
 	Name = "3x Coin Boost",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Player:AddButton({
-	Name = "3x Coins Boost",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+Player:AddToggle({
+	Name = "3x Damage Boost",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Player:AddButton({
+Player:AddToggle({
 	Name = "Auto Rank Rewards",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Player:AddButton({
-	Name = "Auto Auto VIP Rewards",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+Player:AddToggle({
+	Name = "Auto VIP Rewardds",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
 -- GUIs
@@ -381,54 +394,57 @@ local LuckySection = Lucky:AddSection({
 	Name = "Auto Mines all the lucky blocks in the server in an INSTANT!."
 })
 
-Lucky:AddButton({
-	Name = "Auto Snipe Lucky Blocks",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+Lucky:AddToggle({
+	Name = "Auto Snipe lucky Blocks",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Lucky:AddButton({
+Lucky:AddToggle({
 	Name = "Auto Snipe Rainbow",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
 local LuckySection = Lucky:AddSection({
 	Name = "Server Hopper"
 })
 
-Lucky:AddButton({
+Lucky:AddToggle({
 	Name = "2 minutes",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-
-Lucky:AddButton({
+Lucky:AddToggle({
 	Name = "3 minutes",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-
-Lucky:AddButton({
+Lucky:AddToggle({
 	Name = "5 minutes",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Lucky:AddButton({
+Lucky:AddToggle({
 	Name = "10 minutes",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
-
 
 -- Auto
 local Auto = Window:MakeTab({
@@ -450,11 +466,12 @@ Auto:AddDropdown({
 	end    
 })
 
-Auto:AddButton({
+Auto:AddToggle({
 	Name = "Auto Open Eggs",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
 local AutoSection = Auto:AddSection({
@@ -479,13 +496,13 @@ Auto:AddDropdown({
 	end    
 })
 
-Auto:AddButton({
+Lucky:AddToggle({
 	Name = "Auto Farm",
-	Callback = function()
-      		loadstring(game:HttpGet("v", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
-
 local AutoSection = Auto:AddSection({
 	Name = "Auto Mastery"
 })
@@ -499,11 +516,12 @@ Auto:AddDropdown({
 	end    
 })
 
-Auto:AddButton({
+Auto:AddToggle({
 	Name = "Auto Mastery",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
 -- Pets
@@ -526,11 +544,12 @@ Pets:AddDropdown({
 	end    
 })
 
-Pets:AddButton({
+Pets:AddToggle({
 	Name = "Auto Enchant",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
 local PetsSection = Pets:AddSection({
@@ -546,25 +565,28 @@ Pets:AddDropdown({
 	end    
 })
 
-Pets:AddButton({
+Pets:AddToggle({
 	Name = "Auto Golden/Rainbow",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Pets:AddButton({
+Pets:AddToggle({
 	Name = "Auto Golden",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Pets:AddButton({
+Pets:AddToggle({
 	Name = "Auto Rainbow",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
 -- Booth
@@ -780,40 +802,44 @@ World:AddButton({
   	end    
 })
 
--- Dupes
-local Dupes = Window:MakeTab({
-	Name = "Dupes",
+-- Dupe
+
+local Dupe = Window:MakeTab({
+	Name = "Dupe",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local DupesSection = Dupes:AddSection({
+local DupeSection = Dupe:AddSection({
 	Name = "NOTE: Must have Tier 3 or above Bank."
 })
 
-local DupesSection = Dupes:AddSection({
+local DupeSection = Dupe:AddSection({
 	Name = "This only works with HUGES, EXCLUSIVES and GEMS"
 })
 
-local DupesSection = Dupes:AddSection({
+local DupeSection = Dupe:AddSection({
 	Name = "Exclusive Dupe DOES NOT work with Party Cats/Hippomelon"
 })
 
-Dupes:AddButton({
+Dupe:AddToggle({
 	Name = "Dupe Huges",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-Dupes:AddButton({
-	Name = "Dupe Exclusives",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+Dupe:AddToggle({
+	Name = "Dupe EXclusives",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
-local DupesSection = Dupes:AddSection({
+
+local DupeSection = Dupe:AddSection({
 	Name = "If done wrong, there is a 50% chance that the pets will be DELETED!"
 })
 
@@ -840,11 +866,12 @@ local TradeScamSection = TradeScam:AddSection({
 	Name = "This is only a 40% chance that this will work."
 })
 
-TradeScam:AddButton({
-	Name = "TradeScam",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
-  	end    
+TradeScam:AddToggle({
+	Name = "Trade Scam",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
 })
 
 TradeScam:AddSlider({

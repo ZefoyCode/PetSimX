@@ -496,7 +496,7 @@ Auto:AddDropdown({
 	end    
 })
 
-Lucky:AddToggle({
+Auto:AddToggle({
 	Name = "Auto Farm",
 	Default = false,
 	Callback = function(Value)

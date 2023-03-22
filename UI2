@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Omega Z v4 | [🍀LUCKY BLOCK] Pet Simulator X!", HidePremium = false, IntroText = "Omega Z", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Omega Z v8 [🌸KAWAII] Pet Simulator X! 🐾", HidePremium = false, IntroText = "Omega Z", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
 	Name = "Change log v2.3",
